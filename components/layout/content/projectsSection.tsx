@@ -77,7 +77,7 @@ export const ProjectsSection = () => {
 									tabIndex={-1}
 									key={project.name}
 									variants={item}
-									animate={{ backgroundColor: '' }}
+									animate={{ backgroundColor: 'var(--card)' }}
 									whileHover={{
 										y: -6,
 										backgroundColor: hoverColour,

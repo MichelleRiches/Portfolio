@@ -43,7 +43,7 @@ const SkillCard = ({ group, index, isDark }: { group: (typeof skills)[number]; i
 		<motion.section
 			variants={item}
 			tabIndex={-1}
-			animate={{ backgroundColor: '' }}
+			animate={{ backgroundColor: 'var(--card)' }}
 			whileHover={{
 				y: -6,
 				backgroundColor: hoverColour,
