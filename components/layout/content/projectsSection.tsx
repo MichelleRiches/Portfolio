@@ -98,7 +98,7 @@ export const ProjectsSection = () => {
 										<ItemContent className="gap-4">
 											<ItemTitle className="text-2xl leading-8 font-semibold group-hover:text-black">{project.name}</ItemTitle>
 
-											<ItemDescription className="text-sm group-hover:text-black">{project.description}</ItemDescription>
+											<ItemDescription className="text-sm group-hover:text-black line-clamp-none">{project.description}</ItemDescription>
 
 											<div className="flex flex-wrap gap-2">
 												{project.tags.map(tag => (
