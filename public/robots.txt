@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+# Prevent indexing; pages are protected by Basic Auth middleware as well.
