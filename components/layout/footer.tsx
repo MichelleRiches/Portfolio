@@ -8,9 +8,9 @@ export const Footer = () => {
 					<Link href="https://uk.linkedin.com/in/michelle-riches-9670aa1a" target="_blank" className="text-sm underline underline-offset-4 hover:no-underline focus-outline">
 						Linkedin
 					</Link>
-					<Link href="/" target="_blank" className="text-sm underline underline-offset-4 hover:no-underline focus-outline">
+					{/* <Link href="/" target="_blank" className="text-sm underline underline-offset-4 hover:no-underline focus-outline">
 						GitHub
-					</Link>
+					</Link> */}
 				</div>
 			</div>
 		</footer>
